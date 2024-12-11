@@ -6,7 +6,7 @@
     align-items: center;
     margin: 30px;
     font-family: 'Arial', sans-serif;
-    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home3.png"); /* Use relative path from public folder */
+    background-image: url("/public/images/Home3.png"); /* Use relative path from public folder */
     background-size: cover;
     background-position: center;
     color: gold;
