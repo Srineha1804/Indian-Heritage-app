@@ -34,7 +34,7 @@ const cuisines = [
         name: "Butter Chicken",
         region: "Delhi",
         description: "A rich and creamy tomato-based curry with tender chicken pieces.",
-        image: "images/Butter-chicken.png",
+        image: "images/butter-chicken.png",
         recipe: "1. Marinate chicken in yogurt and spices. 2. Grill chicken and cook in tomato-cream gravy."
     },
     {
