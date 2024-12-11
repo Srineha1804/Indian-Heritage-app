@@ -40,7 +40,7 @@ const Culture = () => {
                     </div>
                     <div className="image-card">
                     <a href="https://en.wikipedia.org/wiki/Churches_and_convents_of_Goa" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/goa.png" alt="Goa Churches" />
+                        <img src="/images/Goa.png" alt="Goa Churches" />
                         </a>
                         <div className="card-description">
                         <h3>Goa's churches</h3>
@@ -70,7 +70,7 @@ const Culture = () => {
                 <div className="image-row">
                     <div className="image-card">
                     <a href="https://en.wikipedia.org/wiki/Diwali" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/diwali.png" alt="Diwali Festival" />
+                        <img src="/images/Diwali.png" alt="Diwali Festival" />
                         </a>
                         <div className="card-description">
                             <h3>Diwali (Festival of Lights)</h3>
@@ -79,7 +79,7 @@ const Culture = () => {
                     </div>
                     <div className="image-card">
                     <a href="https://en.wikipedia.org/wiki/Holi" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/holi.png" alt="Holi Festival" />
+                        <img src="/images/Holi.png" alt="Holi Festival" />
                         </a>
                         <div className="card-description">
                             <h3>Holi (Festival of Colors)</h3>
