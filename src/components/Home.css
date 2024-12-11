@@ -6,7 +6,7 @@
     justify-content: center;
     height: 100vh; /* Full viewport height */
     position: relative;
-    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\home1.png"); /* Use relative path from public folder */
+    background-image: url("/public/images/home1.png"); /* Use relative path from public folder */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

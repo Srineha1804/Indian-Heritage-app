@@ -3,7 +3,7 @@
     text-align: center;
     padding: 40px;
     background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
-    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png");
+    background-image: url("/public/images/Home2.png");
     min-height: 100vh;
   }
   .frame-container {
