@@ -5,7 +5,7 @@
     padding: 20px;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4; /* Light background color */
-    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png"); /* Use relative path from public folder */
+    background-image: url("/public/images/Home2.png"); /* Use relative path from public folder */
     background-size: cover;
     background-position: center;
     color: #efdc10;
