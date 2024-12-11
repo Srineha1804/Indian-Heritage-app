@@ -6,7 +6,7 @@
   text-align: center;
 
   /* Updated relative path for the background image */
-  background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png");
+  background-image: url("/public/images/Home2.png");
   background-size: cover;
   background-position: center;
 }
