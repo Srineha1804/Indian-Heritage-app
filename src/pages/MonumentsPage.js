@@ -5,7 +5,7 @@ import './MonumentsPage.css';
 
 const monuments = [
   { id: 1, name: 'Taj Mahal', description: 'The epitome of love and Mughal architecture', image: '/images/tajmahal.png' },
-  { id: 2, name: 'Red Fort', description: 'Historic fort in Delhi', image: '/images/redfort.png' },
+  { id: 2, name: 'Red Fort', description: 'Historic fort in Delhi', image: '/images/Redfort.png' },
   { id: 3, name: 'Qutub Minar', description: 'World’s tallest brick minaret', image: '/images/Qutubminar.png' },
   { id: 4, name: 'Gateway of India', description: 'Iconic monument in Mumbai', image: '/images/Gatewayofindia.png' },
   { id: 5, name: 'Charminar', description: 'The pride of Hyderabad', image: '/images/Charminar.png' },
