@@ -11,7 +11,7 @@ const monuments = [
   { id: 5, name: 'Charminar', description: 'The pride of Hyderabad', image: '/images/Charminar.png' },
   { id: 6, name: 'Mysore Palace', description: 'A stunning royal residence in Karnataka', image: '/images/mysore.png' },
   { id: 7, name: 'Sun Temple, Konark', description: 'A 13th-century temple dedicated to the Sun God, in Odisha', image: '/images/sun_temple.png' },
-  { id: 8, name: 'Golconda Fort', description: 'A fortified citadel in Hyderabad with historical significance', image: '/images/golconda_fort.png' },
+  { id: 8, name: 'Golconda Fort', description: 'A fortified citadel in Hyderabad with historical significance', image: '/images/Golconda_fort.png' },
   { id: 9, name: 'Victoria Memorial', description: 'A large marble building in Kolkata, dedicated to Queen Victoria', image: '/images/victoria_memorial.png' },
 ];
 
