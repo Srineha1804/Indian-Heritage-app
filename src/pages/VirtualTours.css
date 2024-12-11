@@ -1,0 +1,37 @@
+.virtual-tours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home3.png"); /* Use relative path from public folder */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .tour-controls {
+    margin: 10px 0;
+  }
+  
+  .tour-image {
+    width: 50%;
+    max-width: 800px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .tour-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  .virtual-tours-container h1, 
+  .virtual-tours-container h2,
+  .virtual-tours-container h3, /* Add h3 for side headings */
+  .virtual-tours-container .side-heading { /* If you have a specific class for side headings */
+      color: #f4f461; /* Light yellow color */
+      font-size: 1.5em; /* Adjust as needed for side heading size */
+      text-shadow: 1px 1px 5px rgba(185, 203, 45, 0.3); /* Optional shadow */
+      margin: 10px 0;
+  }
+  .yellow-text {
+    color: #e1de34; /* Yellow color */
+}

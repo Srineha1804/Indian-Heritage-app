@@ -1,0 +1,139 @@
+/* Quiz Container */
+.quiz-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header Section */
+  .quiz-header {
+    font-size: 1.8em;
+    color: #0078d4;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Question Section */
+  .question-section {
+    font-size: 1.2em;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Options Section */
+  .options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .option-btn {
+    display: flex;
+    align-items: center;
+    background-color: #f3f2f1;
+    color: #323130;
+    border: 1px solid #e1dfdd;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background-color: #edebe9;
+    border-color: #c8c6c4;
+  }
+  
+  .option-btn input[type="radio"] {
+    margin-right: 15px;
+    accent-color: #0078d4;
+  }
+  
+  /* Next Button */
+  #next-btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #next-btn:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Progress Section */
+  .quiz-progress {
+    margin: 20px 0;
+    height: 8px;
+    background-color: #f3f2f1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .quiz-progress-bar {
+    height: 8px;
+    width: 0;
+    background-color: #0078d4;
+    transition: width 0.4s ease;
+  }
+  
+  /* Score Section */
+  .score-section {
+    font-size: 1.5em;
+    color: #0078d4;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  /* Feedback Section */
+.feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .correct {
+    color: #4caf50;
+  }
+  
+  .incorrect {
+    color: #f44336;
+  }
+  
+  /* Retry Button */
+  #next-btn {
+    padding: 12px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #next-btn:hover {
+    background-color: #005a9e;
+  }
+  
+  

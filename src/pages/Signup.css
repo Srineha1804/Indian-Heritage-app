@@ -1,0 +1,80 @@
+/* Centering the entire page */
+.page-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh; /* Full viewport height */
+  background-color: #e8f1fa; /* Light background color */
+}
+
+/* Signup container with added width and responsiveness */
+.signup-container {
+  text-align: center;
+  padding: 6px;
+  width: 25%; /* Ensures responsiveness */
+  max-width: 350px; /* Sets a maximum width for larger screens */
+  border: 2px solid #add8e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f7faff;
+  box-sizing: border-box;
+  min-height: 300px; /* Ensures padding is included in the width calculation */
+}
+
+/* Styling for the heading */
+.signup-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Signup form styles */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label styles */
+.signup-form label {
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+/* Input field styles */
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1dce5;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* Focused input field styles */
+.signup-form input:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+
+/* Button styles */
+.signup-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  color: red;
+  font-size: 1em;
+  margin-bottom: 8px;
+} 

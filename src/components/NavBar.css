@@ -1,0 +1,61 @@
+.navbar {
+  background-color: #e3f2fd; /* Light blue background */
+  padding: 10px 20px; /* Padding for top/bottom and left/right */
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  position: sticky; /* Keeps navbar at the top */
+  top: 0; /* Positions navbar at the top */
+  width: 100%; /* Full width of the page */
+  z-index: 1000; /* Ensures it stays on top */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-logo {
+  font-size: 24px; /* Logo font size */
+  font-weight: bold; /* Make logo bold */
+  color: #333; /* Dark color for the logo */
+}
+
+.navbar-list {
+  list-style-type: none; /* Remove bullet points */
+  display: flex;
+  gap: 20px; /* Space between links */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-list li {
+  position: relative; /* For dropdowns or additional styling */
+}
+
+.navbar-list li a {
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size for links */
+  text-transform: uppercase; /* Makes text uppercase */
+  color: #000; /* Default link color */
+  padding: 8px 12px; /* Padding around links for better click area */
+  border-radius: 4px; /* Rounded corners */
+  transition: color 0.3s, background-color 0.3s; /* Transition for color and background */
+}
+
+.navbar-list li a:hover {
+  color: #fff; /* Change text color on hover */
+  background-color: #007bff; /* Change background color on hover */
+}
+
+.navbar-list li a.active {
+  color: #fff; /* Active link text color */
+  background-color: #0056b3; /* Active link background color */
+}
+
+@media (max-width: 768px) {
+  .navbar-list {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center items */
+  }
+
+  .navbar-list li {
+      margin: 5px 0; /* Space between items */
+  }
+}

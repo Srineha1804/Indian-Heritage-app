@@ -1,0 +1,88 @@
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Upcoming Event.png"); /* Use a relative path for React */
+    background-size: cover; /* Ensures the image covers the container fully */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+    min-height: 100vh; /* Ensures the container is tall enough for full coverage */
+    width: 100%; /* Ensures full-width coverage */
+  }
+  .calendar-box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calendar-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for 7 days of the week */
+    gap: 5px;
+  }
+  
+  .calendar-weekday {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+  }
+  
+  .calendar-day {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  
+  .calendar-day.empty {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .calendar-day.event-day {
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calendar-day:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  .calendar-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0b0c0c; /* A vibrant blue color */
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a soft shadow effect */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calendar-heading + h2 {
+    font-size: 24px;
+    color: #555;
+    margin-top: -10px; /* Adjust spacing between headings */
+    font-family: 'Arial', sans-serif;
+  }
+    

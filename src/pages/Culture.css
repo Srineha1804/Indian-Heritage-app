@@ -1,0 +1,88 @@
+/* Culture.css */
+
+/* Container */
+.culture-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png"); /* Use relative path from public folder */
+    background-size: cover;
+    background-position: center;
+    color: #efdc10;
+}
+
+/* Main Title */
+h1 {
+    font-size: 2.2rem;
+    color: #e4f362; /* Dark green for the main title */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Section Titles */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #d45d5d; /* Red color for section titles */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Image Layout for Temples and Festivals */
+.image-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images in a row */
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.image-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.image-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Scroll Effect for Festivals */
+.festivals {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(30px); /* Start off-screen */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.festivals.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move into view */
+}
+
+/* Apply Scroll Effect */
+@media screen and (max-width: 769px) {
+    .image-row {
+        grid-template-columns: repeat(3, 1fr);/* 2 images per row on small screens */
+    }
+}

@@ -1,0 +1,68 @@
+/* src/pages/Quiz.css */
+.dashboard-container {
+  padding: 20px;
+  background-color: #fdfaf6; /* Light beige for a heritage vibe */ /* Prevents repeating the image */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+.dashboard-title {
+  font-size: 2.5em;
+  color: #0e0e0c;
+  text-shadow: 2px 2px 5px rgba(220, 249, 116, 0.2);
+}
+
+.dashboard-description {
+  margin: 10px 0 30px;
+  font-size: 1.2em;
+  color: #121211;
+}
+
+.quiz-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quiz-card {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #6a1b9a; /* Purple for elegance */
+}
+
+.quiz-description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.start-quiz-btn {
+  text-decoration: none;
+  background-color: #f57c00; /* Vibrant orange */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.start-quiz-btn:hover {
+  background-color: #d84315;
+}

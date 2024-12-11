@@ -1,0 +1,44 @@
+/* src/components/CultureDetails.css */
+
+.culture-details {
+  text-align: center; /* Aligns text to the left for a structured layout */
+  margin: 10px auto; /* Centers with more space around */
+  padding: 15px; /* Adds padding for a spacious look */
+  border: 2px solid #d3d3d3; /* Medium-light border color for emphasis */
+  border-radius: 8px; /* Moderate rounding for a smooth look */
+  background-color: #ffffff; /* White background for contrast */
+  max-width: 70%; /* Limits container width */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slightly more shadow for depth */
+}
+
+.culture-details h2 {
+  font-size: 24px; /* Larger, bold heading */
+  color: #333333; /* Darker text color for contrast */
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+.culture-details p {
+  font-size: 18px; /* Clear, readable text size */
+  color: #555555; /* Softer gray color for secondary text */
+  line-height: 1.6; /* Adds line spacing for readability */
+}
+
+.culture-images {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+  justify-content: space-around; /* Evenly spaces images */
+  gap: 15px; /* Adjusted gap between images */
+  margin-top: 15px;
+}
+
+.culture-image {
+  width: 45%; /* Adjusted width for a balanced look */
+  height: 280px; /* Fixed height for consistency */
+  border-radius: 8px; /* Smooth rounding */
+  object-fit: cover; /* Ensures images are fully contained */
+  transition: transform 0.3s ease; /* Adds a smooth zoom effect on hover */
+}
+
+.culture-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}

@@ -1,0 +1,37 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\home1.png"); /* Use relative path from public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Transparent overlay */
+.frame-container {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Adds shadow around the frame */
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e8b57; /* Dark green color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}

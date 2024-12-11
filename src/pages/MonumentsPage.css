@@ -1,0 +1,100 @@
+/* Centering and general styles */
+.monuments-page {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png");
+    min-height: 100vh;
+  }
+  .frame-container {
+    position: relative;
+    z-index: 2; /* Brings text and frame above the overlay */
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for text box */
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+}
+  
+  .monuments-page h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .monuments-page p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid layout */
+  .monuments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card styles */
+  .monument-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .monument-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card content */
+  .monument-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .monument-card h3 a {
+    color: #57bfec;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .monument-card h3 a:hover {
+    color: #0056b3;
+  }
+  
+  .monument-card p {
+    color: #25d2df;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Responsive text */
+  @media (max-width: 768px) {
+    .monuments-page h2 {
+      font-size: 2rem;
+    }
+  
+    .monuments-page p {
+      font-size: 1rem;
+    }
+  
+    .monument-card h3 {
+      font-size: 1.3rem;
+    }
+  
+    .monument-card p {
+      font-size: 0.9rem;
+    }
+  }
+  

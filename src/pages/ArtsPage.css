@@ -1,0 +1,58 @@
+/* src/pages/ArtsPage.css */
+.arts-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+
+  /* Updated relative path for the background image */
+  background-image: url("C:\Users\srine\OneDrive\Desktop\JFSD\indian-heritage-app\public\images\Home2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.arts-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.art-item {
+  width: 280px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(230, 241, 68, 0.2); /* Slightly increased visibility of the shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.art-item:hover {
+  transform: translateY(-10px); /* Adds lift effect on hover */
+  box-shadow: 0px 6px 12px rgba(230, 241, 68, 0.4); /* Enhances shadow on hover */
+}
+
+.art-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Adds spacing below the image */
+}
+
+.art-item h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.art-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.arts-page h1,
+.arts-page h2 {
+  color: #f5e642; /* Light yellow color for headers */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds subtle text shadow for better readability */
+}
